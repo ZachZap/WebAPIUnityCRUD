@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Game Entry Page</title>
+</head>
+<body>
+    <h1>Add your game entries here.</h1>
+    <form action="/saveGame" method="post">
+        <label for="gamename">Enter Game Title here.</label>
+        <input type="text" name="gamename" id="GameTitle" placeholder="Enter Game Name Here...">
+        <br>
+        <label for="gamestudio">Enter Game Studio here.</label>
+        <input type="text" name="gamestudio" id="GameStudio" placeholder="Enter name of Game Studio here...">
+        <br>
+        <button type="submit">Save Game</button>
+    </form>
+</body>
+</html>
